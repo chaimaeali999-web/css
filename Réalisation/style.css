@@ -1,0 +1,123 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: #d8dbdc;
+    color: #2c3e50;
+    line-height: 1.6;
+}
+
+nav {
+    background-color: #34495e;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    border: 2px solid transparent;
+    transition: 0.3s;
+}
+nav a:hover {
+    background-color: #2980b9;
+    border-radius: 4px;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.home h1 {
+    font-size: 3em;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.home p {
+    font-size: 1.2em;
+    max-width: 600px;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background: url('assets/photo gif 22.gif') no-repeat center center/cover;
+    color: rgb(14, 100, 157);
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+section {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #2980b9;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    background: #ecf0f1;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+.Expériences ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+.contact-info a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    min-width: 10px;
+}
